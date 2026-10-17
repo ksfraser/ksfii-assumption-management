@@ -1,0 +1,23 @@
+{
+    "name": "ksfii/assumption-management",
+    "version": "1.0.0",
+    "description": "Financial calculation assumptions management - SRP classes for managing, storing, and overriding analysis assumptions",
+    "type": "library",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "KSFII\\AssumptionManagement\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "extra": {
+        "ksf": {
+            "module-type": "business-logic"
+        }
+    }
+}
